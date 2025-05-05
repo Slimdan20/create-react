@@ -1,4 +1,6 @@
 branch-defaults:
+  main:
+    environment: my-app-env
   master:
     environment: my-app-env
     group_suffix: null
