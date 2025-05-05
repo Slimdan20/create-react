@@ -41,6 +41,7 @@ jobs:
   deploy:
     executor: node-executor
     steps:
+      - checkout
       - attach_workspace:
           at: . 
       - run:
