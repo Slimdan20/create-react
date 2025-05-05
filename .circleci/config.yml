@@ -63,6 +63,7 @@ jobs:
           name: Deploy to AWS Elastic Beanstalk
           command: |
             export PATH=$HOME/.local/bin:$PATH
+            eb use my-app-env
             eb deploy
 
 workflows:
